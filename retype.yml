@@ -8,7 +8,7 @@ output: ./docs # Custom path to the output directory.
 
 # -----------------------------------------------------------------------------
 
-url: https://koodokage.github.io/UE_ModularMenu/      # The base URL of your website.
+url:  https://svi-unrealengine.github.io/FlockSystem/     # The base URL of your website.
 
 
 # -----------------------------------------------------------------------------
@@ -52,7 +52,7 @@ jobs:
 # -----------------------------------------------------------------------------
 
 branding:
-  title: Teleport Portal System # Your custom website title; keep it short.
+  title: Flock System # Your custom website title; keep it short.
   #logo: static/logo.png          # Path to a logo file.
   #logoDark: static/logo.png # Path to a logo file to use in dark mode.
   #logoAlign: left               # Align the logo to the right or the left.
@@ -89,7 +89,7 @@ footer:
 
 # -----------------------------------------------------------------------------
 
-cname: koodokage.github.io # The CNAME file value, or false to not create a CNAME file.
+cname: svi-unrealengine.github.io # The CNAME file value, or false to not create a CNAME file.
 
 # -----------------------------------------------------------------------------
 
