@@ -12,24 +12,24 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Procedural Parameters | Widgets</title>
-    <meta name="title" content="Procedural Parameters | Widgets">
-    <meta name="description" content="Go to : Content/FlockSystem/Niagaras/NS_ProceduralFlock or NS_SplineFlock">
+    <title>Vertex Animation: Moving/Offset UV Coord World Position | Widgets</title>
+    <meta name="title" content="Vertex Animation: Moving/Offset UV Coord World Position | Widgets">
+    <meta name="description" content="Go to : Content/FlockSystem/Asset/Materials/M_UVMoverBaseBird">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://svi-unrealengine.github.io/FlockSystem/configs/spline/">
+    <link rel="canonical" href="https://svi-unrealengine.github.io/FlockSystem/configs/mesh/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://svi-unrealengine.github.io/FlockSystem/configs/spline/">
-    <meta property="og:title" content="Procedural Parameters | Widgets">
-    <meta property="og:description" content="Go to : Content/FlockSystem/Niagaras/NS_ProceduralFlock or NS_SplineFlock">
+    <meta property="og:url" content="https://svi-unrealengine.github.io/FlockSystem/configs/mesh/">
+    <meta property="og:title" content="Vertex Animation: Moving/Offset UV Coord World Position | Widgets">
+    <meta property="og:description" content="Go to : Content/FlockSystem/Asset/Materials/M_UVMoverBaseBird">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://svi-unrealengine.github.io/FlockSystem/configs/spline/">
-    <meta property="twitter:title" content="Procedural Parameters | Widgets">
-    <meta property="twitter:description" content="Go to : Content/FlockSystem/Niagaras/NS_ProceduralFlock or NS_SplineFlock">
+    <meta property="twitter:url" content="https://svi-unrealengine.github.io/FlockSystem/configs/mesh/">
+    <meta property="twitter:title" content="Vertex Animation: Moving/Offset UV Coord World Position | Widgets">
+    <meta property="twitter:description" content="Go to : Content/FlockSystem/Asset/Materials/M_UVMoverBaseBird">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -213,12 +213,6 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="procedural-parameters" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#procedural-parameters">#</doc-anchor-trigger>
-        <span>Procedural Parameters</span>
-    </h1>
-</doc-anchor-target>
 <style>
     .sample {
         text-align: center;
@@ -230,26 +224,25 @@
         margin-bottom: 20px;
     }
 </style>
-<div class="sample"><p>Go to :  <code v-pre>Content/FlockSystem/Niagaras/NS_ProceduralFlock or NS_SplineFlock</code></p>
+<div class="sample"><p>Go to :  <code v-pre>Content/FlockSystem/Asset/Materials/M_UVMoverBaseBird</code></p>
 </div>
-<p><code v-pre>COLOR</code>
-Mixes the color with randomly selected percentage &quot;max&quot; and &quot;min&quot; values.</p>
-<p><code v-pre>CURL NOISE FORCE</code>
-Value of creating clutter along the flow axis</p>
-<p><code v-pre>DRAG</code>
-Drag value for per particle</p>
-<p><code v-pre>DRIVE DIRECTION</code>
-Particle movement direction</p>
-<p><code v-pre>POINT FORCE</code>
-Force for pursuit movement direction</p>
-<p><code v-pre>SCALE</code>
-Spawn the meshs with randomly selected percentage &quot;max&quot; and &quot;min&quot; values.</p>
-<p><code v-pre>SPAWN RATE</code>
-Augment or dimminue particle count of simulation</p>
-<p><code v-pre>TARGET MESH</code>
-Niagara particle mesh</p>
-<p><code v-pre>VORTEX FORCE</code>
-Force for spiral effect</p>
+<doc-anchor-target id="vertex-animation-movingoffset-uv-coord-world-position" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vertex-animation-movingoffset-uv-coord-world-position">#</doc-anchor-trigger>
+        <span>Vertex Animation: Moving/Offset UV Coord World Position</span>
+    </h1>
+</doc-anchor-target>
+<p><code v-pre>UV COORD</code>
+moving texture cordinates wiht random values on the target axis</p>
+<doc-anchor-target id="add">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#add">#</doc-anchor-trigger>
+        <span>Add</span>
+    </h1>
+</doc-anchor-target>
+<div class="sample"><p>Go to :  <code v-pre>Content/FlockSystem/Asset/Crow/Crow_VFX</code></p>
+</div>
+<p>User can add custom mesh with the examine the sample Crow_VFX static mesh. The big step is separate and place only the moveable part in to UV0</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -259,23 +252,16 @@ Force for spiral effect</p>
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../configs/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../configs/spline/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Configuration</span>
+                                                <span class="block mt-1">Procedural Parameters</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../configs/mesh/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Mesh Specifications</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -319,6 +305,6 @@ Force for spiral effect</p>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Procedural Parameters", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Mesh Specifications", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>

@@ -11,4 +11,5 @@ icon: "/static/settings.png"
 We use some parameters ​​for cool procedurally generated effects
 
 [!ref icon="/static/custom.png"](spline.md)
+[!ref icon="/static/egg.png"](mesh.md)
 

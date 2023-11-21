@@ -21,6 +21,7 @@ icon: "/static/custom.png"
  Go to :  `Content/FlockSystem/Niagaras/NS_ProceduralFlock or NS_SplineFlock`
 :::
 
+
 `COLOR` 
 Mixes the color with randomly selected percentage "max" and "min" values.
 
