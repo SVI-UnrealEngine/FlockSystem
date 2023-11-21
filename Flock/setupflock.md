@@ -20,10 +20,31 @@ icon: "/static/play.png"
 
 
 :::sample
-Go to :  `Content/FlockSystem/BP_CrowDock_Simple`
+Go to :  `Content/FlockSystem/Blueprints/BP_CrowDock_Simple`
 :::
 
 
 `Drag To Level` -> Drag and drop the BP system on desired area.
 
-`Open Details Panel,Select NiagaraFX` -> Child FX object simulate on local space of BP_CrowDock_Simple
+`Open Details Panel,Select NiagaraFX` -> Child FX object simulate on local space to world space of BP_CrowDock_Simple
+
+`Quick Set NiagaraFX` -> Set Spawn Rate,Scale sizes, and select a static mesh
+
+
+:::sample
+Go to :  `Content/FlockSystem/Blueprints/BP_CrowSpline`
+:::
+
+`Drag To Level` -> Drag and drop the BP system on desired area.
+`Set Spline` -> Drag and drop spline points.
+
+Go to :  `Content/FlockSystem/Niagaras/NS_SplineFlock`
+
+
+`Add NiagaraFX` -> Add NS_SplineFlock on the current level
+
+`Drag For Spline Initialization` -> Drag NS_SplineFlock object under BP_CrowSpline
+
+`Reset Location` -> Set child NS_SplineFlock location to (0,0,0)
+
+`Quick Set NiagaraFX` -> Set Spawn Rate,Scale sizes, and select a static mesh

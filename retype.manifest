@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2023-10-20T13:01:29Z",
+  "created": "2023-11-21T14:04:38Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -19,6 +19,12 @@
     {
       "path": "components/index.html",
       "old": true
+    },
+    {
+      "path": "configs/index.html"
+    },
+    {
+      "path": "configs/spline/index.html"
     },
     {
       "path": "contractssecurity/index.html",
@@ -93,10 +99,12 @@
       "old": true
     },
     {
-      "path": "modules/index.html"
+      "path": "modules/index.html",
+      "old": true
     },
     {
-      "path": "modules/spline/index.html"
+      "path": "modules/spline/index.html",
+      "old": true
     },
     {
       "path": "quick-start/addplugin/index.html",

@@ -17,15 +17,14 @@ icon: "/static/add.png"
 </style>
 
 :::sample
-Go to :  `Content/FlockSystem/FX`
+Go to :  `Content/FlockSystem/Niagaras`
 :::
 
 
-# What is PT Procedural Birds ?
+# What is NS Procedural Flock ?
 
-By changing the value of some units such as direction and force, it achieves different movements and shapes and manages the herd.
+Mesh, size, direction, vortex, point force etc. It achieves different movements and shapes by managing the flock by changing the value of some values.
 
+# What is NS Spline Flock  ?
 
-# What is PT Spline Birds ?
-
-Procedurally guides flock of birds on targeted spline
+Procedurally guides flock on targeted spline
